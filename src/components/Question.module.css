@@ -1,0 +1,24 @@
+.option {
+  padding: 0.7rem 1rem;
+  margin: 1rem 0;
+  border: 1px solid #ccc;
+  text-align: left;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #ccc;
+}
+
+.option.selected {
+  background-color: #ddd;
+}
+
+.option.correct {
+  background-color: #90ee90;
+}
+
+.option.wrong {
+  background-color: #ef4949;
+}
